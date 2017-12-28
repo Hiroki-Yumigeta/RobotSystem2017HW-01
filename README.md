@@ -16,8 +16,8 @@
 
     ![Lチカ](./images/fig1.jpg)
 
-    * [動画1: Lチカ](https://www.youtube.com/)
-    * [動画2: Lチカ(コンソール画面)](https://www.youtube.com/)
+    * [動画1: Lチカ](https://www.youtube.com/){:target="_blank"}
+    * [動画2: Lチカ(コンソール画面)](https://www.youtube.com/){:target="_blank"}
 
 
 1. catコマンドでスイッチのステータス表示
@@ -29,5 +29,5 @@
 
     ![スイッチ](./images/fig2.jpg)
 
-    * [動画3: スイッチ認識](https://www.youtube.com/)
-    * [動画4: スイッチ認識(コンソール画面)](https://www.youtube.com/)
+    * [動画3: スイッチ認識](https://www.youtube.com/){:target="_blank"}
+    * [動画4: スイッチ認識(コンソール画面)](https://www.youtube.com/){:target="_blank"}
