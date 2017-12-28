@@ -15,19 +15,33 @@
     * GPIO21に以下のように接続(青色高輝度LED)
 
     ![Lチカ](./images/fig1.jpg)
+    
+    * 制御内容
+    1. GPFSEL2の5bit目から3bit目を001にする(Output mode)
+    1. ユーザーランド(コンソール)に1が入力されたとき、GPSET0
+       0が入力されたとき、GPCLR0の、lsbから21番目のbitを1にする
 
-    * [動画1: Lチカ](https://youtu.be/PQ__xw80gaY)
-    * [動画2: Lチカ(コンソール画面)](https://www.youtube.com/)
+    * [動画1: Lチカ](https://youtu.be/CslaoA1eb30)
+    * [動画2: Lチカ(コンソール画面)](https://youtu.be/X-081OScJBE)
 
 
 1. catコマンドでスイッチのステータス表示
     * 追加課題
-        * `cat /dev/swled0` でスイッチの状態を表示(ONで1、OFFで0)
+        * `cat /dev/swled0` でスイッチの状態を表示(ONのときに1、OFFのときに0)
 
     * GPIO20に以下のように接続(10kΩでプルダウン)
     * スイッチを押したことがわかるように赤色LEDを物理的に接続
 
     ![スイッチ](./images/fig2.jpg)
 
-    * [動画3: スイッチ認識](https://www.youtube.com/)
-    * [動画4: スイッチ認識(コンソール画面)](https://www.youtube.com/)
+    * 制御内容
+    1. GPFSEL2の2bit目から0bit目を000にする(Input mode)
+    1. GPPUDを01としプルダウンにする
+    1. しばらく待つ
+    1. GPPUDCLK0のlsbから20bit目を1にする(Assert Clock)
+    1. しばらく待つ(設定を反映させるため)
+    1. GPPUD、GPPUDCLKともに0にする
+    1. 設定が完了すると、入力値によってGPLEV0のlsbから21bit目が変化するようになる
+
+    * [動画3: スイッチ認識](https://youtu.be/V7vF-qqg9bc)
+    * [動画4: スイッチ認識(コンソール画面)](https://youtu.be/lVNPugOPNds)
