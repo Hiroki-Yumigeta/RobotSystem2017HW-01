@@ -47,5 +47,5 @@
     * [動画4: スイッチ認識(コンソール画面)](https://youtu.be/lVNPugOPNds)
 
 ## ライセンス (LICENSE)
-    This program is licensed under GPLv2 - see the [LICENSE](LICENSE)
-    このプログラムはGPLv2でライセンスされています。条項は [LICENSE](LICENSE)を参照してください。
+This program is licensed under GPLv2 - see the [LICENSE](LICENSE)
+このプログラムはGPLv2でライセンスされています。条項は [LICENSE](LICENSE)を参照してください。
