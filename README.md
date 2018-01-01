@@ -48,6 +48,6 @@
 
 
 ## ライセンス (LICENSE)
-This program is licensed under GPLv2 - see the [LICENSE](LICENSE)
+This program is licensed under GPLv3 - see the [LICENSE](LICENSE)
 
-このプログラムはGPLv2でライセンスされています。条項は [LICENSE](LICENSE)を参照してください。
+このプログラムはGPLv3でライセンスされています。条項は [LICENSE](LICENSE)を参照してください。
