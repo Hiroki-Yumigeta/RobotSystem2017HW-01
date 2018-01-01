@@ -1,6 +1,7 @@
 # RobotSystem2017HW-01
 ロボットシステム学 課題1-デバイスドライバ作成
 
+
 ## 概要
 1. `echo` コマンドでLチカ
 1. `cat` コマンドでスイッチのステータス表示
@@ -24,7 +25,6 @@
     * [動画1: Lチカ](https://youtu.be/CslaoA1eb30)
     * [動画2: Lチカ(コンソール画面)](https://youtu.be/X-081OScJBE)
 
-
 1. catコマンドでスイッチのステータス表示
     * 追加課題
         * `cat /dev/swled0` でスイッチの状態を表示(ONのときに1、OFFのときに0)
@@ -46,6 +46,8 @@
     * [動画3: スイッチ認識](https://youtu.be/V7vF-qqg9bc)
     * [動画4: スイッチ認識(コンソール画面)](https://youtu.be/lVNPugOPNds)
 
+
 ## ライセンス (LICENSE)
 This program is licensed under GPLv2 - see the [LICENSE](LICENSE)
+
 このプログラムはGPLv2でライセンスされています。条項は [LICENSE](LICENSE)を参照してください。
